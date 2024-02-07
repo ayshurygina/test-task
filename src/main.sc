@@ -5,13 +5,7 @@ require: changePinCode.sc
 theme: /
         
     state: Routing
-        q!: $regexp</start>
-        event!: match
-        # FIXME В сценарии не описано что должно происходить при этих событиях
         event!: noMatch
-        event!: lengthLimit
-        event!: timeLimit
-        event!: nluSystemLimit
         if: !$session.firstRequest
             script:
                 $jsapi.startSession()
@@ -24,14 +18,23 @@ theme: /
             if (!_.isEmpty(res) && res.targetState) {
                 $reactions.transition(res.targetState)
             } else {
-                $reactions.transition("/StopSession")
+                $reactions.transition("/NoMatch")
             }
         
     state: GladToTalk
         a: Приятно было пообщаться. Всегда готов помочь вам снова ☺
         go!: /StopSession
         
+    state: NoMatch || noContext = true
+        # FIXME В сценарии не описано что должно происходить при этих событиях
+        event!: lengthLimit
+        event!: timeLimit
+        event!: nluSystemLimit
+        a: Извините, я не понимаю.
+        script:
+            // FIXME Добавлен таймаут как в ChooseOption на случай, если вместо выбора опции будет NoMatch
+            $reactions.timeout({ interval: "1 hour", targetState: "/StopSession" });
+            
     state: StopSession
-        a: Конец
         script:
             $jsapi.stopSession()
