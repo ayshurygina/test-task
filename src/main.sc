@@ -14,6 +14,8 @@ theme: /
             script:
                 $jsapi.startSession()
                 $session.firstRequest = true
+                // FIXME По сценарию подразумевается только перед ChooseOption, 
+                // но логичнее перед началом сессии
                 $reaction.answer("Здравствуйте!")
         script:
             var res = $nlp.match($request.query, "/ChangePinCode")
