@@ -41,14 +41,6 @@
     </test-case>
 
     <test-case>
-        <q>Я помою пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Как сделать новый пароль на карте?</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>
@@ -169,14 +161,6 @@
     </test-case>
 
     <test-case>
-        <q>Какисменить пароль карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Если я забыла пароль на карте, где мне его теперь взять?</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>
@@ -274,14 +258,6 @@
 
     <test-case>
         <q>Добрый вечер,  как создать пин код на карте?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
-        <q>Где посмотреть пин карты?</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>
         <a state="/ChangePinCode/Card"/>
@@ -553,14 +529,6 @@
     </test-case>
 
     <test-case>
-        <q>Как посмотреть пин-код карты в онлайн банке</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>По-прежнему не работает карта, пин-код через приложение не меняет, ближайший банкомат в 200км, как пользоваться картой?</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>
@@ -583,25 +551,25 @@
         <a state="/ChangePinCode/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
-
-    <test-case>
-        <q>Скажите, я поменяла пин код в мобильном приложении, через какое время можно будет воспользоваться банкоматом?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
-        <q>Здраствуйте у меня картый пин-кот забиль можите памоч</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
+    
     <test-case>
         <q>Не могу найти где можно пин код для карты ввести</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Где посмотреть пин карты?</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Как посмотреть пин-код карты в онлайн банке</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>
         <a state="/ChangePinCode/Card"/>

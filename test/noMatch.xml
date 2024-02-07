@@ -1,4 +1,5 @@
 <test>
+    
     <test-case>
         <q>Где можнопосмотретьпинкод кпрты</q>
         <a state="/Routing"/>
@@ -6,4 +7,36 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
-<test/>
+    
+    <test-case>
+        <q>Здраствуйте у меня картый пин-кот забиль можите памоч</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Скажите, я поменяла пин код в мобильном приложении, через какое время можно будет воспользоваться банкоматом?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Какисменить пароль карты</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Я помою пароль от карты</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+</test>

@@ -9,6 +9,7 @@ tests:
   include:
     #- general.xml
     - card.xml
+    - noMatch.xml
 
 nlp:
   intentNoMatchThresholds:
