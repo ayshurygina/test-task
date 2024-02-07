@@ -1,7 +1,8 @@
 theme: /ChangePinCode
 
     state: ChooseOption
-        q: * {($changeInf/$correctInf) * ($pin/$code)} *
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
         a: Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -13,8 +14,21 @@ theme: /ChangePinCode
             
     
     state: App
-        q: 1 || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
-        q: $app || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: (1/$app) || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в] $app * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * $app [$threeWords] ($changeInf/$correctInf/$forget) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        
+        q: [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app [$threeWords]
+        q: [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) [$threeWords]
+        
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app *
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] [в] $app [$threeWords] ($changeInf/$correctInf/$forget) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] [в] $app *
+        q: * $app [$threeWords] ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
+        q: * $app [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
+        
         a: Смена пароля от приложения возможна несколькими способами:
             1. на экране "Профиль" выберите "Изменить код входа в приложение".
             2. введите SMS-код.
@@ -33,8 +47,21 @@ theme: /ChangePinCode
                 
         
     state: Card
-        q: 2 || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
-        q: $card || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: (2/$card) || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * $card [$threeWords] ($changeInf/$correctInf/$forget) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        
+        q: [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card [$threeWords]
+        q: [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) [$threeWords]
+        
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
+        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] [в/на/от] $card [$threeWords] ($changeInf/$correctInf/$forget) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card *
+        q: * $card [$threeWords] ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
+        q: * $card [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
+        
         a: Это можно сделать в приложении:
             1. На экране "Мои деньги" в разделе "Карты" нажмите на нужную.
             2. Выберите вкладку "Настройки".

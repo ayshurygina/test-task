@@ -78,6 +78,14 @@
         <a state="/GladToTalk"/>
     </test-case>
     
+    <test-case id="Card">
+        <q>Как поменять пин на карте</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
     <test-case id="NoMatch">
         <q>Как</q>
         <a state="/Routing">Здравствуйте!</a>
