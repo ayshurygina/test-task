@@ -1,0 +1,15 @@
+{
+  "positions" : [ {
+    "id" : "/ChangePinCode/ChooseOption",
+    "x" : 290,
+    "y" : 1138
+  }, {
+    "id" : "/ChangePinCode/App",
+    "x" : 1070,
+    "y" : 793
+  }, {
+    "id" : "/ChangePinCode/Card",
+    "x" : 1070,
+    "y" : 1483
+  } ]
+}

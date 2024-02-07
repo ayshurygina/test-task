@@ -3,9 +3,11 @@ require: patterns.sc
 require: changePinCode.sc
     
 theme: /
-
+        
     state: Routing
+        q!: $regexp</start>
         event!: match
+        # FIXME В сценарии не описано что должно происходить при этих событиях
         event!: noMatch
         event!: lengthLimit
         event!: timeLimit
@@ -15,8 +17,8 @@ theme: /
                 $jsapi.startSession()
                 $session.firstRequest = true
                 // FIXME По сценарию подразумевается только перед ChooseOption, 
-                // но логичнее перед началом сессии
-                $reaction.answer("Здравствуйте!")
+                // но логичнее в начале сессии
+                $reactions.answer("Здравствуйте!")
         script:
             var res = $nlp.match($request.query, "/ChangePinCode")
             if (!_.isEmpty(res) && res.targetState) {
@@ -30,5 +32,6 @@ theme: /
         go!: /StopSession
         
     state: StopSession
+        a: Конец
         script:
             $jsapi.stopSession()
