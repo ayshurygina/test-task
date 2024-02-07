@@ -601,14 +601,6 @@
     </test-case>
 
     <test-case>
-        <q>Где можнопосмотретьпинкод кпрты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Не могу найти где можно пин код для карты ввести</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/Card"/>

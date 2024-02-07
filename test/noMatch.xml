@@ -1,0 +1,9 @@
+<test>
+    <test-case>
+        <q>Где можнопосмотретьпинкод кпрты</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+<test/>

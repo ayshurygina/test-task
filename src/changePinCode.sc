@@ -1,8 +1,8 @@
 theme: /ChangePinCode
 
     state: ChooseOption
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
         a: Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -16,18 +16,18 @@ theme: /ChangePinCode
     state: App
         q: (1/$app) || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
         
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в] $app * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
-        q: * $app [$threeWords] ($changeInf/$correctInf/$forget) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в] $app * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * $app [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
         
         q: [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app [$threeWords]
         q: [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) [$threeWords]
         
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app *
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$threeWords] [в] $app [$threeWords] ($changeInf/$correctInf/$forget) *
-        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] [в] $app *
-        q: * $app [$threeWords] ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
-        q: * $app [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] [в] $app [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в] $app *
+        q: * $app [$threeWords] ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
+        q: * $app [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
         
         a: Смена пароля от приложения возможна несколькими способами:
             1. на экране "Профиль" выберите "Изменить код входа в приложение".
@@ -49,18 +49,44 @@ theme: /ChangePinCode
     state: Card
         q: (2/$card) || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
         
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
-        q: * $card [$threeWords] ($changeInf/$correctInf/$forget) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в/на/от] $card * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
+        q: * $card [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) * || fromState = "/ChangePinCode/ChooseOption", onlyThisState = true
         
         q: [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card [$threeWords]
         q: [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) [$threeWords]
         
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
-        q: * ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$threeWords] [в/на/от] $card [$threeWords] ($changeInf/$correctInf/$forget) *
-        q: * ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] [в/на/от] $card *
-        q: * $card [$threeWords] ($pin/$code/$password) [$threeWords] ($changeInf/$correctInf/$forget) *
-        q: * $card [$threeWords] ($changeInf/$correctInf/$forget) [$threeWords] ($pin/$code/$password) *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] [в/на/от] $card [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
+        q: * ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] [в/на/от] $card *
+        q: * $card [$threeWords] ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
+        q: * $card [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
+        
+        q: * {$changeSynsInf {($pin/$code/$password) ([в/на/от] $card)} ((в/через) $app)} *
+        
+        q: * $forget [$threeWords] {($pin/$code/$password) ([в/на/от] $card)} * $changeSynsInf [$oneWord] (в/через) $app *
+        q: * $forget [$threeWords] {($pin/$code/$password) ([в/на/от] $card)} * (в/через) $app [$oneWord] $changeSynsInf *
+        q: * {($pin/$code/$password) ([в/на/от] $card)} [$threeWords] $forget * $changeSynsInf [$oneWord] (в/через) $app *
+        q: * {($pin/$code/$password) ([в/на/от] $card)} [$threeWords] $forget * (в/через) $app [$oneWord] $changeSynsInf *
+        q: * $changeSynsInf [$oneWord] (в/через) $app * $forget [$threeWords] {($pin/$code/$password) ([в/на/от] $card)} *
+        q: * (в/через) $app [$oneWord] $changeSynsInf * $forget [$threeWords] {($pin/$code/$password) ([в/на/от] $card)} *
+        q: * $changeSynsInf [$oneWord] (в/через) $app * {($pin/$code/$password) ([в/на/от] $card)} [$threeWords] $forget *
+        q: * (в/через) $app [$oneWord] $changeSynsInf * {($pin/$code/$password) ([в/на/от] $card)} [$threeWords] $forget *
+        
+        q: * $cannot {($pin/$code/$password) ([в/на/от] $card)} [$oneWord] ((в/через) $app) *
+        q: * $cannot {[$oneWord] ((в/через) $app)} {($pin/$code/$password) ([в/на/от] $card)} *
+        q: * {($pin/$code/$password) ([в/на/от] $card)} {[$oneWord] ((в/через) $app)} $cannot *
+        q: * ((в/через) $app) [$oneWord] {($pin/$code/$password) ([в/на/от] $card)} $cannot *
+        
+        q: * {$blocked $card} * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
+        q: * {$blocked $card} * ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) *
+        q: * ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) * {$blocked $card} *
+        q: * ($pin/$code/$password) [$threeWords] ($changeSynsInf/$learnInf/$recallInf/$forget/$notChanging) * {$blocked $card} *
+        
+        q: * $atm [$threeWords] $wrong [$oneWord] ($pin/$code/$password) *
+        q: * $atm [$threeWords] ($pin/$code/$password) [$oneWord] $wrong *
+        q: * $wrong [$oneWord] ($pin/$code/$password) [$threeWords] $atm *
+        q: * ($pin/$code/$password) [$oneWord] $wrong [$threeWords] $atm *
         
         a: Это можно сделать в приложении:
             1. На экране "Мои деньги" в разделе "Карты" нажмите на нужную.
