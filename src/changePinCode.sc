@@ -80,10 +80,10 @@ theme: /ChangePinCode
         q: * $card [$threeWords] ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
         q: * $card [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
         
-        q: * $tell [$oneWord] ($pin/$code/$password) [$oneWord] [в/на/от] $card *
-        q: * $tell [$oneWord] [в/на/от] $card [$oneWord] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$oneWord] [в/на/от] $card [$oneWord] $tell *
-        q: * $card [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
+        q: * $tell [$oneWord] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
+        q: * $tell [$oneWord] [в/на/от] $card [$threeWords] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$threeWords] [в/на/от] $card [$oneWord] $tell *
+        q: * $card [$threeWords] ($pin/$code/$password) [$oneWord] $tell *
         
         q: * {$changeSynsInf {($pin/$code/$password) ([в/на/от] $card)} ((в/через) $app)} *
         
@@ -101,15 +101,10 @@ theme: /ChangePinCode
         q: * {($pin/$code/$password) ([в/на/от] $card)} {[$oneWord] ((в/через) $app)} $cannot *
         q: * ((в/через) $app) [$oneWord] {($pin/$code/$password) ([в/на/от] $card)} $cannot *
         
-        q: * $changeSynsInf [$oneWord] ($pin/$code/$password) [$threeWords] {$cannot $enterInf} [в/на/от] $card *
-        q: * ($pin/$code/$password) [$oneWord] $changeSynsInf [$threeWords] {$cannot $enterInf} [в/на/от] $card *
-        q: * $changeSynsInf [$oneWord] ($pin/$code/$password) [$threeWords] [в/на/от] $card {$cannot $enterInf} *
-        q: * ($pin/$code/$password) [$oneWord] $changeSynsInf [$threeWords] [в/на/от] $card {$cannot $enterInf} *
-        
-        q: * {$cannot $enterInf} [в/на/от] $card [$threeWords] $changeSynsInf [$oneWord] ($pin/$code/$password)   *
-        q: * {$cannot $enterInf} [в/на/от] $card [$threeWords] ($pin/$code/$password) [$oneWord] $changeSynsInf
-        q: * {$cannot $enterInf} [в/на/от] $card [$threeWords] $changeSynsInf [$oneWord] ($pin/$code/$password) *
-        q: * {$cannot $enterInf} [в/на/от] $card [$threeWords] ($pin/$code/$password) [$oneWord] $changeSynsInf *
+        q: * $changeSynsInf [$oneWord] ($pin/$code/$password) [$threeWords] {$cannot $enterInf ([в/на/от] $card)} *
+        q: * ($pin/$code/$password) [$oneWord] $changeSynsInf [$threeWords] {$cannot $enterInf ([в/на/от] $card)} *
+        q: * {$cannot $enterInf ([в/на/от] $card)} [$threeWords] $changeSynsInf [$oneWord] ($pin/$code/$password) *
+        q: * {$cannot $enterInf ([в/на/от] $card)} [$threeWords] ($pin/$code/$password) [$oneWord] $changeSynsInf *
         
         q: * {$blocked $card} * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
         q: * {$blocked $card} * ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
@@ -121,8 +116,19 @@ theme: /ChangePinCode
         q: * $wrong [$oneWord] ($pin/$code/$password) [$threeWords] $atm *
         q: * ($pin/$code/$password) [$oneWord] $wrong [$threeWords] $atm *
         
+        q: * ($getPast/$changed) [$oneWord] $card [$threeWords] $absent ($pin/$code/$password) *
+        q: * ($getPast/$changed) [$oneWord] $card [$threeWords] ($pin/$code/$password) $absent *
+        q: * $card [$oneWord] ($getPast/$changed) [$threeWords] $absent ($pin/$code/$password) *
+        q: * $card [$oneWord] ($getPast/$changed) [$threeWords] ($pin/$code/$password) $absent *
+        q: * $absent ($pin/$code/$password) [$threeWords] ($getPast/$changed) [$oneWord] $card  *
+        q: * $absent ($pin/$code/$password) [$threeWords] $card [$oneWord] ($getPast/$changed) *
+        q: * ($pin/$code/$password) $absent [$threeWords] $card [$oneWord] ($getPast/$changed) *
+        q: * ($pin/$code/$password) $absent [$threeWords] ($getPast/$changed) [$oneWord] $card *
+        
         q: * ($getPast/$changed) [$oneWord] $card * $installed [$threeWords] ($pin/$code/$password) *
-        q: * ($getPast/$changed) [$oneWord] $card * ($pin/$code/$password) [$threeWords] $installed  *
+        q: * ($getPast/$changed) [$oneWord] $card * ($pin/$code/$password) [$threeWords] $installed *
+        q: * $card [$oneWord] ($getPast/$changed) * $installed [$threeWords] ($pin/$code/$password) *
+        q: * $card [$oneWord] ($getPast/$changed) * ($pin/$code/$password) [$threeWords] $installed *
         q: * $installed [$threeWords] ($pin/$code/$password) * ($getPast/$changed) [$oneWord] $card *
         q: * $installed [$threeWords] ($pin/$code/$password) * $card [$oneWord] ($getPast/$changed) *
         q: * ($pin/$code/$password) [$threeWords] $installed * ($getPast/$changed) [$oneWord] $card *
