@@ -1,7 +1,7 @@
 theme: /ChangePinCode
 
     state: ChooseOption
-        q: ($pin/$code/$password)
+        q: [~мой] ($pin/$code/$password)
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
         q: * ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
         a: Сейчас расскажу порядок действий.
@@ -10,7 +10,7 @@ theme: /ChangePinCode
             2. Поменять PIN-код от карты.
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.
         script:
-            // FIXME Не указано что значит "Нет ответа". В течение какого времени?
+            // FIXME В сценарии не указано что означает "Нет ответа". В течение какого времени?
             $reactions.timeout({ interval: "1 hour", targetState: "/StopSession" });
             
     
@@ -68,10 +68,10 @@ theme: /ChangePinCode
         q: ($pin/$code/$password) [$oneWord] [в/на/от] $card
         q: [в/на/от] $card [$oneWord] ($pin/$code/$password)
         
-        q: * $changeN [$oneWord] ($pin/$code/$password) [$oneWord] [в/на/от] $card *
-        q: * $changeN [$oneWord] [в/на/от] $card [$oneWord] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$oneWord] [в/на/от] $card [$oneWord] $changeN  *
-        q: * ($pin/$code/$password) [$oneWord] $changeN [$oneWord] [в/на/от] $card *
+        q: * ($changeN/$installation) [$oneWord] ($pin/$code/$password) [$oneWord] [в/на/от] $card *
+        q: * ($changeN/$installation) [$oneWord] [в/на/от] $card [$oneWord] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$oneWord] [в/на/от] $card [$oneWord] ($changeN/$installation)  *
+        q: * ($pin/$code/$password) [$oneWord] ($changeN/$installation) [$oneWord] [в/на/от] $card *
         
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) *

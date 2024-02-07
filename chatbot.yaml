@@ -1,4 +1,4 @@
-name: zb-cailapub
+name: test-task
 
 entryPoint: main.sc
 
@@ -7,8 +7,10 @@ language: ru
 
 tests:
   include:
-    #- general.xml
+    - general.xml
+    - chooseOption.xml
     - card.xml
+    - app.xml
     - noMatch.xml
 
 nlp:

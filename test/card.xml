@@ -575,5 +575,69 @@
         <a state="/ChangePinCode/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
+    
+    <test-case>
+        <q>Как в приложении сменить пароль на пластиковой карте</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Забыл пароль от карточки что делать ?</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Как посмотреть пин-код от карты</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Как установить новый пинкод на карту 5657</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Установка пин код карты</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Забыл пароль карты что можно сделать</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Забыл пароль от карточки что делать ?</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
+    
+    <test-case>
+        <q>Подскажите пожалуйста как можно восстановить пароль от карты</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/Card"/>
+        <a state="/GladToTalk"/>
+    </test-case>
 
 </test>

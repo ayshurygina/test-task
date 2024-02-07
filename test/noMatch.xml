@@ -39,4 +39,244 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
+    
+        <test-case>
+        <q>Здравствуйте )подскажите как можно узнать свой куар  код для счёта моего ?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Почему нет смс с кодом??? Покупаю авиабилеты, оплату произвожу по карте, куда уходит код для подтверждения оплаты???</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Подскажите где взять qr код для зачисления</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как создают qr код для перевода мне</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+
+    <test-case>
+        <q>Здравствуйте. Подскажите пожалуйста, где можно получить QR-код для перевода денег.</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте,мне пристани приходить на почту электронные квитанции за оплату коммунальных услуг.Как мне оплачивать через вообще приложении?Я не могу вставить QR  код для оплаты.Я нажимаю оплатить по коду,высвечивается только чтобы я отсканировала код и все,а как мне его вставить из фотогалереи,?  </q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, подскажите, пожалуйста, почему приложение не читает qr-код для оплаты квитанции</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Смс какая нибудь должна прийти после ввода кода и изменения пин кода?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Где выдавали пин код? Подскажите пожалуйста </q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Нет,не удалось,после повтора ввода пин кода пишет что то пошло не так</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Где делать настройки по замене пинкода? В программе или в банкомате?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Ввела не правильно пин код</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>По ссылке это не открывается предлагают ввести пароль</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Предлагается только ввести старый пароль &apos;регистрация не предлагается</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сохранить пароль</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Как мне узнать логин и пароль для оплаты бонусами билетов  рэвэл путешествие</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, как я могу узнать свой логин и пароль от личного кабинета ?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Я делаю по инструкции, но сканирование пальца не включается, просит ввести пароль а потом выкидывает снова в профиль</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Добрый вечер, скачала quik приложение, вставляю адрес сервера, логин, временный пароль из архива - соединение установить не удалось</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Репина</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Хотелось бы сделать невозможным доступ к оповещениям на экране ввода пин-кода.</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Что делать если забрал пинкод?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Пытаюсь сделать перевод с карты на карту. После ввода данных карт открываю смс сообщения для получения кода перевода. Рядом на экране окошко  Опен.ру с номерами карт, жму на него, но оказываюсь на исходной странице Опен.ру, где надо вводить код доступа в приложение. Вхожу, снова открываю окошко для перевода с карты, но оно уже очистилось и некуда вводить код перевода. Как надо возвращаться из приложения смс на страницу с номерами карт из Опен.ру?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Наталья, я говорю про приложение банка Открытие для Android. В этом приложении  на странице входа нет кнопки &quot;Сбросить пароль&quot;. А Вы какое приложение имеете ввиду?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Увидела сообщение о том что мобильное приложение «Открытие Брокер» . Не могу вспомнить свой логин и пароль. Как можно восстановить?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как мне зделать что когда входиш в приложение не вводить пароль?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте! Я проверила, в телефона фэйс айди настроено и корректно работает, в приложении банка Открытие тоже включено, но когда захожу в приложение, то запрашивает код пароль, а фэйс айди не запрашивает. Почему? Что делать?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Несколько раз повторила операцию,но вход в приложение всё равно по старому пин коду.Причина?</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>2 вопроса- приложение работает некорректно, информацию о задолженности и пин коде пишет, что что-то пошло не так и произошла ошибка! Помогите исправить ошибки</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Пин код в приложении установила</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 </test>
