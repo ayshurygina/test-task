@@ -1,7 +1,7 @@
 <test>
     <test-case id="ChooseOption">
         <q>Как поменять пин</q>
-        <a state="/Routing">Здравствуйте!</a>
+        <a state="/ChangePinCode/ChooseOption">Здравствуйте!</a>
         <a state="/ChangePinCode/ChooseOption">Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -13,7 +13,7 @@
     
     <test-case id="ChooseOption - App">
         <q>Как поменять пин</q>
-        <a state="/Routing">Здравствуйте!</a>
+        <a state="/ChangePinCode/ChooseOption">Здравствуйте!</a>
         <a state="/ChangePinCode/ChooseOption">Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -21,13 +21,13 @@
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.</a>
         <timeoutReply targetState="/StopSession"/>
         <q>1</q>
-        <a state="/ChangePinCode/App">Смена пароля от приложения возможна несколькими способами:
+        <a state="/ChangePinCode/ChooseOption/App">Смена пароля от приложения возможна несколькими способами:
             1. на экране "Профиль" выберите "Изменить код входа в приложение".
             2. введите SMS-код.
             3. придумайте новый код для входа в приложение и повторите его.</a>
-        <timeoutReply targetState="/ChangePinCode/App/Variant2"/>
+        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeout/>
-        <a state="/ChangePinCode/App/Variant2">Либо нажмите на кнопку "Выйти" на странице ввода пароля для входа в приложение.
+        <a state="/ChangePinCode/ChooseOption/App/Variant2">Либо нажмите на кнопку "Выйти" на странице ввода пароля для входа в приложение.
                 После чего нужно будет заново пройти регистрацию:
                 1. ввести полный номер карты (если оформляли ранее, иначе номер телефона и дату рождения),
                 2. указать код из смс-код,
@@ -40,10 +40,11 @@
     <test-case id="ChooseOption - App 2">
         <state>ChangePinCode/ChooseOption</state>
         <q>приложение</q>
-        <a state="/ChangePinCode/App"/>
-        <timeoutReply targetState="/ChangePinCode/App/Variant2"/>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeout/>
-        <a state="/ChangePinCode/App/Variant2"/>
+        <a state="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeoutReply targetState="/GladToTalk"/>
         <timeout/>
         <a state="/GladToTalk"/>
@@ -51,7 +52,7 @@
     
     <test-case id="ChooseOption - Card">
         <q>Как поменять пин</q>
-        <a state="/Routing">Здравствуйте!</a>
+        <a state="/ChangePinCode/ChooseOption">Здравствуйте!</a>
         <a state="/ChangePinCode/ChooseOption">Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -59,13 +60,13 @@
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.</a>
         <timeoutReply targetState="/StopSession"/>
         <q>2</q>
-        <a state="/ChangePinCode/Card">Это можно сделать в приложении:
+        <a state="/ChangePinCode/ChooseOption/Card">Это можно сделать в приложении:
             1. На экране "Мои деньги" в разделе "Карты" нажмите на нужную.
             2. Выберите вкладку "Настройки".
             3. Нажмите "Сменить пин-код".
             4. И введите комбинацию, удобную вам.
             5. Повторите ее.</a>
-        <a state="/ChangePinCode/Card">И все готово!
+        <a state="/ChangePinCode/ChooseOption/Card">И все готово!
             Пин-код установлен, можно пользоваться. ☺ </a>
         <a state="/GladToTalk">Приятно было пообщаться. Всегда готов помочь вам снова ☺</a>
     </test-case>
@@ -73,26 +74,27 @@
     <test-case id="ChooseOption - Card 2">
         <state>ChangePinCode/ChooseOption</state>
         <q>карта</q>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case id="Card">
         <q>Как поменять пин на карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case id="App">
         <q>Как поменять пин от приложения</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/App"/>
-        <timeoutReply targetState="/ChangePinCode/App/Variant2"/>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeout/>
-        <a state="/ChangePinCode/App/Variant2"/>
+        <a state="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeoutReply targetState="/GladToTalk"/>
         <timeout/>
         <a state="/GladToTalk"/>
@@ -100,7 +102,7 @@
     
     <test-case id="NoMatch">
         <q>Как</q>
-        <a state="/Routing">Здравствуйте!</a>
+        <a state="/NoMatch">Здравствуйте!</a>
         <a state="/NoMatch">Извините, я не понимаю.</a>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>

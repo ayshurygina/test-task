@@ -1,25 +1,24 @@
 require: patterns.sc
 
 require: changePinCode.sc
+
+init:
+    bind("preProcess", function($context) {
+        if (!$context.session.firstRequest) {
+            $jsapi.startSession()
+            $context.session.firstRequest = true
+            // FIXME По сценарию подразумевается только перед ChooseOption, 
+            // но логичнее в начале сессии
+            $reactions.answer("Здравствуйте!")
+        }
+    });
     
 theme: /
-        
-    state: Routing
-        event!: noMatch
-        if: !$session.firstRequest
-            script:
-                $jsapi.startSession()
-                $session.firstRequest = true
-                // FIXME По сценарию подразумевается только перед ChooseOption, 
-                // но логичнее в начале сессии
-                $reactions.answer("Здравствуйте!")
-        script:
-            var res = $nlp.match($request.query, "/ChangePinCode")
-            if (!_.isEmpty(res) && res.targetState) {
-                $reactions.transition(res.targetState)
-            } else {
-                $reactions.transition("/NoMatch")
-            }
+    
+    state: Start
+        # FIXME Для теста в виджете
+        q!: $regex</start>
+        a: Начнем
         
     state: GladToTalk
         a: Приятно было пообщаться. Всегда готов помочь вам снова ☺
@@ -27,6 +26,7 @@ theme: /
         
     state: NoMatch || noContext = true
         # FIXME В сценарии не описано что должно происходить при этих событиях
+        event!: noMatch
         event!: lengthLimit
         event!: timeLimit
         event!: nluSystemLimit

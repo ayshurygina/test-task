@@ -2,7 +2,7 @@
 
     <test-case>
         <q>Забыла пароль, как быть?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -10,7 +10,7 @@
     
     <test-case>
         <q>Изменить пароль </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -18,7 +18,7 @@
     
     <test-case>
         <q>Если забыл пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -26,7 +26,7 @@
     
     <test-case>
         <q>Как надо изменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -34,7 +34,7 @@
     
     <test-case>
         <q>Не помню пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -42,7 +42,7 @@
     
     <test-case>
         <q>Где смотреть логин и пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -50,7 +50,7 @@
     
     <test-case>
         <q>Как можно изменить пароль входа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -58,7 +58,7 @@
     
     <test-case>
         <q>Как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -66,7 +66,7 @@
     
     <test-case>
         <q>А как поменять пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -74,7 +74,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -82,7 +82,7 @@
     
     <test-case>
         <q>Как поменять пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -90,7 +90,7 @@
     
     <test-case>
         <q>Как изменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -98,7 +98,7 @@
     
     <test-case>
         <q>Как узнать пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -106,7 +106,7 @@
     
     <test-case>
         <q>Здравствуйте. Как сменить пароль при входе</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -114,7 +114,7 @@
     
     <test-case>
         <q>Поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -122,7 +122,7 @@
     
     <test-case>
         <q>Как сменить пароль ? </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -130,7 +130,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -138,7 +138,7 @@
     
     <test-case>
         <q>Здравствуйте, как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -146,7 +146,7 @@
     
     <test-case>
         <q>Как изменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -154,7 +154,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -162,7 +162,7 @@
     
     <test-case>
         <q>Привет как поменять пароль при входе?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -170,7 +170,7 @@
     
     <test-case>
         <q>Поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -178,7 +178,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -186,7 +186,7 @@
     
     <test-case>
         <q>Как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -194,7 +194,7 @@
     
     <test-case>
         <q>Изменить пароль входа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -202,7 +202,7 @@
     
     <test-case>
         <q>Привет как поменять пароль </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -210,7 +210,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -218,7 +218,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -226,7 +226,7 @@
     
     <test-case>
         <q>Не получается сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -234,7 +234,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -242,7 +242,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -250,7 +250,7 @@
     
     <test-case>
         <q>Как поменять пароль ?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -258,7 +258,7 @@
     
     <test-case>
         <q>как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -266,7 +266,7 @@
     
     <test-case>
         <q>Поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -274,7 +274,7 @@
     
     <test-case>
         <q>Как поменять пароль на вход</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -282,7 +282,7 @@
     
     <test-case>
         <q>День добрый !Забыла пароль , как самостоятельно сменить его </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -290,7 +290,7 @@
     
     <test-case>
         <q>Как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -298,7 +298,7 @@
     
     <test-case>
         <q>Изменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -306,7 +306,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -314,7 +314,7 @@
     
     <test-case>
         <q>Как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -322,7 +322,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -330,7 +330,7 @@
     
     <test-case>
         <q>Забыла пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -338,7 +338,7 @@
     
     <test-case>
         <q>как изменить пароль и логин ?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -346,7 +346,7 @@
     
     <test-case>
         <q>Добрый день а как мне пароль поменять я забыл какой я создал пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -354,7 +354,7 @@
     
     <test-case>
         <q>Добрый вечер, помогите, надо поменять пароль. Как это сделать</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -362,7 +362,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -370,7 +370,7 @@
     
     <test-case>
         <q>Как поменять пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -378,7 +378,7 @@
     
     <test-case>
         <q>Добрый день, как поменять пароль для входа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -386,7 +386,7 @@
     
     <test-case>
         <q>Здравствуйте  пароль  забыл</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -394,7 +394,7 @@
     
     <test-case>
         <q>Как поменять пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -402,7 +402,7 @@
     
     <test-case>
         <q>Как изменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -410,7 +410,7 @@
     
     <test-case>
         <q>Как сменить пароль при входе</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -418,7 +418,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -426,7 +426,7 @@
     
     <test-case>
         <q>Сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -434,7 +434,7 @@
     
     <test-case>
         <q>Добрый день как изменить логин  и пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -442,7 +442,7 @@
     
     <test-case>
         <q>Добрый вечер, как сменить пароль?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -450,7 +450,7 @@
     
     <test-case>
         <q>Здравствуйте как мне поменять пароль для входа через телефон</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -458,7 +458,7 @@
     
     <test-case>
         <q>Как сменить пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -466,7 +466,7 @@
     
     <test-case>
         <q>Как поменять пароль</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -474,7 +474,7 @@
     
     <test-case>
         <q>Сменить пароль </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -482,7 +482,7 @@
     
     <test-case>
         <q>Добрый день, подскажите как поменять пароль для входа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -490,7 +490,7 @@
     
     <test-case>
         <q>Не могу сменить ПИН!?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -498,7 +498,7 @@
     
     <test-case>
         <q>пинкод </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -506,7 +506,7 @@
     
     <test-case>
         <q>Управление пин-кодом</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -514,7 +514,7 @@
     
     <test-case>
         <q>Смена пинкода</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -522,7 +522,7 @@
     
     <test-case>
         <q>В разделе настройки нет графы сменить пин-код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -530,7 +530,7 @@
     
     <test-case>
         <q>Здравствуйте, не могу изменить пин код и отказаться от уведомлений по карте, уже неделю.</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -538,7 +538,7 @@
     
     <test-case>
         <q>Здравствуйте забыла пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -546,7 +546,7 @@
     
     <test-case>
         <q>Какой у меня пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -554,7 +554,7 @@
     
     <test-case>
         <q>Пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -562,7 +562,7 @@
     
     <test-case>
         <q>Здравствуйте пин код не могу поменять</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -570,7 +570,7 @@
     
     <test-case>
         <q>Добрый день не могу сменить пин-код выдает ошибку не удалось отправить SMS</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -578,7 +578,7 @@
     
     <test-case>
         <q>Забыл пинкод </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -586,7 +586,7 @@
     
     <test-case>
         <q>Сменился пин-код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -594,7 +594,7 @@
     
     <test-case>
         <q>Управление пин кодом</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -602,7 +602,7 @@
     
     <test-case>
         <q>у меня не получается поставить пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -610,7 +610,7 @@
     
     <test-case>
         <q>Как сменить пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -618,7 +618,7 @@
     
     <test-case>
         <q>Здравствуйте как узнать свой пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -626,7 +626,7 @@
     
     <test-case>
         <q>В приложении не даёт сменить пин</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -634,7 +634,7 @@
     
     <test-case>
         <q>Сайт выдаёт ошибку. Пин не удалось установить</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -642,7 +642,7 @@
     
     <test-case>
         <q>Не дает чтоб зделал пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -650,7 +650,7 @@
     
     <test-case>
         <q>Изменение пин</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -658,7 +658,7 @@
     
     <test-case>
         <q>узнать пин код </q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -666,7 +666,7 @@
     
     <test-case>
         <q>Где посмотреть пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -674,7 +674,7 @@
     
     <test-case>
         <q>Пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -682,7 +682,7 @@
     
     <test-case>
         <q>Мой пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -690,7 +690,7 @@
     
     <test-case>
         <q>Как сменить пинкод</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -698,7 +698,7 @@
     
     <test-case>
         <q>Здравствуйте как установить пин?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -706,7 +706,7 @@
     
     <test-case>
         <q>Пин</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -714,7 +714,7 @@
     
     <test-case>
         <q>Где создать ПИН</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -722,7 +722,7 @@
     
     <test-case>
         <q>пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -730,7 +730,7 @@
     
     <test-case>
         <q>Забыла пинкод?как сменить?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -738,7 +738,7 @@
     
     <test-case>
         <q>Как установить пин код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -746,7 +746,7 @@
     
     <test-case>
         <q>Добрый день,как изменить код доступа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -754,7 +754,7 @@
     
     <test-case>
         <q>Поменять код достапа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -762,7 +762,7 @@
     
     <test-case>
         <q>Как сменить код доступа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -770,7 +770,7 @@
     
     <test-case>
         <q>как сменить код доступа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -778,7 +778,7 @@
     
     <test-case>
         <q>Код доступа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -786,7 +786,7 @@
     
     <test-case>
         <q>Как сменить код доступа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -794,7 +794,7 @@
     
     <test-case>
         <q>Как сменить код доступа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -802,7 +802,7 @@
     
     <test-case>
         <q>Сменить код доступп</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -810,7 +810,7 @@
     
     <test-case>
         <q>Как поменять код доступа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -818,7 +818,7 @@
     
     <test-case>
         <q>Здравствуйте, к каком разделе изменить код доступа?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -826,7 +826,7 @@
     
     <test-case>
         <q>Как поменять код доступа</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -834,7 +834,7 @@
     
     <test-case>
         <q>Как посмотреть свой PIN код</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -842,7 +842,7 @@
     
     <test-case>
         <q>Забыла PIN, как востановить?</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
@@ -850,7 +850,7 @@
     
     <test-case>
         <q>Сменить PIN</q>
-        <a state="/Routing"/>
+        <a state="/ChangePinCode/ChooseOption"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>

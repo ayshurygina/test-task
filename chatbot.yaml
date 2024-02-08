@@ -8,9 +8,9 @@ language: ru
 tests:
   include:
     # - general.xml
-     - chooseOption.xml
+    # - chooseOption.xml
     # - card.xml
-    # - app.xml
+     - app.xml
     # - noMatch.xml
 
 nlp:

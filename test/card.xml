@@ -2,641 +2,641 @@
     
     <test-case>
         <q>Подскажите пожалуйста как поменять на карте пароль если не помништ</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыла пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как поменять пароль на карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как вспомнить пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте, получила сегодня карту и не помню установила ли пароль на нее, как можно его проверить?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как сделать новый пароль на карте?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как изменить пароль на карте?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте, а что делать если забыла пароль от карты </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыл пароль от карточки</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте, что делать если забыл пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как поменять пароль пароль карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как узнать пароль от кредитной карты </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте! Что делать, если забыл пароль от карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как изменить пароль карточки?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как узнать пароль от карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Пароль от карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здраствуйте, потскажите как поменять пароль в личном кабинете карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыл пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как сменить пароль входа по карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Если я забыла пароль на карте, где мне его теперь взять?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыла пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыл пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как скинуть пароль на карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Подскажите пожалуйста пароль карты моей</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыл пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте,забыла пароль от карты,как можно поменять?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Перезайти в приложение не помогло. Также выходит ошибка. Попробую в банкомате, но есть сомнения, что в первую очередь при работе с картой будет запрошен валидный пин код. А у меня его на текущий момент для этой карты нет</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Получила перевыпущенную карту как издать ее пин?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте. Не получается в приложении измерить пин код на карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как создать пин-код карты через мобильное приложение?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Не могу сменить пин код карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый вечер,  как создать пин код на карте?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как настроить пин-код на карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте , как поменять пин код карты ?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Пин код карты </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>У меня заблокировали карту после трёх попыток. Как я могу поменять пин код на Новый ? Видимо , старый я забыла. </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Никакой. Будто все ок. А в банкомате написано неверный пин или позднее</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как узнать пин код карточки?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый день, получила карту, но не могу установить на ней пин код в личном кабинете. Выдает ошибку</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Я хочу менять пинкод карта . Как можно менять онлайн?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте, как создать пин для новой карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как сменить пин-код, если я не могу зайти в карту?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый день, получила сегодня карту, но мне не сказали про пинкод при оплате, он установлен?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый день.  Подскажите как узнать пин код карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте. У меня вопросы по моей кредитной карте: в личном кабинете срок действия карты до 08.24, а на самой карте 08.22.!? И ещё вопрос по ПИН-кода: вчера в магазине три раза не сработал код, карта заблокировалась. В личном кабинете не могу сменить ПИН-код, пишут- невозможно отправить SMS, попробуйте позднее. Спасибо.</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый день, не верно ввёл пин код, пришло сообщение что карта заблокирована и нужно установить новый пин</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>добрый день! До сих пор не могу воспользоваться картой потому что не меняет пин код карты. Когда устраните проблему:</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый вечер, я забыла от своей премиум карты пин-код, я могу его просто сменить через приложение? Или запрашивается старый?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Ещё вопрос по кредитной карте. Она уже активная? Как установить пинкод?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как разблокировать карту и поменять ПИН</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как я могу посмотреть пин код от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте.Почему я никак не могу поменять пин код на картах.</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Я знаю пин код своей карты, но знаю не уверенно как проверить?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Добрый вечер! На одной из карт забыл пин код! Как восстановить пин код?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Не могу найти где можно пин код для карты ввести</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как узнать пин-код карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Где посмотреть пин код карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>еще вопрос - у меня по карте пин-код установился? я в настройках сейчас вроде поменяла, код подтверждения ввела, но потом вышло уведомление «что-то пошло не так»</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Как можно узнать пин код от карты? Я его забыла </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте, не могу поменять пин-код  на карте, выскакивает ошибка &quot; что то пошло не так&quot; после ввода пароля из смс</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте.  Как поменять пин код на карте, если забыла его?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Здравствуйте! Забыла пин код от карты </q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Забыла пин код от карты. Хочу сменить в приложении. Пишет что смс не отпраляется и изменения недоступны</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Мне нужно было оплатить товар картой (пластиком). Для оплаты необходимо ввести пин-код. Я ввела новый пин-код, но он не подошёл.</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Но это смена пин кода карты ?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>По-прежнему не работает карта, пин-код через приложение не меняет, ближайший банкомат в 200км, как пользоваться картой?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Подскажите пин код где записан карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
     <test-case>
         <q>Поменяли вчера карту, нет пин кода. Старые не проходит. Что делать?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Не могу найти где можно пин код для карты ввести</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Где посмотреть пин карты?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Как посмотреть пин-код карты в онлайн банке</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Как в приложении сменить пароль на пластиковой карте</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Забыл пароль от карточки что делать ?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Как посмотреть пин-код от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Как установить новый пинкод на карту 5657</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Установка пин код карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Забыл пароль карты что можно сделать</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Забыл пароль от карточки что делать ?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
     
     <test-case>
         <q>Подскажите пожалуйста как можно восстановить пароль от карты</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/Card"/>
-        <a state="/ChangePinCode/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
+        <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/GladToTalk"/>
     </test-case>
 
