@@ -7,8 +7,8 @@ init:
         if (!$context.session.firstRequest) {
             $jsapi.startSession()
             $context.session.firstRequest = true
-            // FIXME По сценарию подразумевается только перед ChooseOption, 
-            // но логичнее в начале сессии
+            // FIXME По сценарию выглядит так будто приветствие должно быть только перед ChooseOption, 
+            // но кажется, что подразумевалось в начале сессии
             $reactions.answer("Здравствуйте!")
         }
     });

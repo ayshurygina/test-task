@@ -23,26 +23,29 @@ theme: /ChangePinCode
         state: App
             q: (1/$app) 
             
-            q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] [в] $app * 
-            q: * $app [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) * 
+            q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] $toOpenApp * 
+            q: * $toOpenApp [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) * 
             
-            q: [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app [$threeWords] 
-            q: [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) [$threeWords] 
+            q: [$threeWords] ($pin/$code/$password) [$threeWords] $toOpenApp [$threeWords] 
+            q: [$threeWords] $toOpenApp [$threeWords] ($pin/$code/$password) [$threeWords] 
             
-            q!: ($pin/$code/$password) [$oneWord] [в] $app
-            q!: [в] $app [$oneWord] ($pin/$code/$password)
+            q!: * ($pin/$code/$password) [$oneWord] $toOpenApp *
+            q!: * $toOpenApp [$oneWord] ($pin/$code/$password) *
             
-            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] [в] $app *
-            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] [в] $app [$threeWords] ($pin/$code/$password) *
-            q!: * ($pin/$code/$password) [$threeWords] [в] $app [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
-            q!: * ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] [в] $app *
-            q!: * $app [$threeWords] ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
-            q!: * $app [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
+            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] {($pin/$code/$password) ([от/для] $appGen)} *
+            q!: * {($pin/$code/$password) ([от/для] $appGen)} [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
             
-            q!: * $tell [$oneWord] ($pin/$code/$password) [$oneWord] [в] $app *
-            q!: * $tell [$oneWord] [в] $app [$oneWord] ($pin/$code/$password) *
-            q!: * ($pin/$code/$password) [$oneWord] [в] $app [$oneWord] $tell *
-            q!: * $app [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
+            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] $toOpenApp *
+            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] $toOpenApp [$threeWords] ($pin/$code/$password) *
+            q!: * ($pin/$code/$password) [$threeWords] $toOpenApp [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
+            q!: * ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] $toOpenApp *
+            q!: * $toOpenApp [$threeWords] ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
+            q!: * $toOpenApp [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
+            
+            q!: * $tell [$oneWord] ($pin/$code/$password) [$oneWord] $toOpenApp *
+            q!: * $tell [$oneWord] $toOpenApp [$oneWord] ($pin/$code/$password) *
+            q!: * ($pin/$code/$password) [$oneWord] $toOpenApp [$oneWord] $tell *
+            q!: * $toOpenApp [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
             
             
             a: Смена пароля от приложения возможна несколькими способами:
