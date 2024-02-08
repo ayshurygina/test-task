@@ -2,6 +2,12 @@ theme: /ChangePinCode
 
     state: ChooseOption
         q: [~мой] ($pin/$code/$password)
+        q: {~какой [у (меня/нас)] ($pin/$code/$password)}
+        q: ($changeN/$control/$installation) [$oneWord] ($pin/$code/$password)
+        q: ($pin/$code/$password) [$oneWord] ($changeN/$control/$installation)
+        
+        q: * $changed [$oneWord] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$oneWord] $changed *
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) *
         q: * ($pin/$code/$password) [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
         a: Сейчас расскажу порядок действий.
@@ -68,10 +74,10 @@ theme: /ChangePinCode
         q: ($pin/$code/$password) [$oneWord] [в/на/от] $card
         q: [в/на/от] $card [$oneWord] ($pin/$code/$password)
         
-        q: * ($changeN/$installation) [$oneWord] ($pin/$code/$password) [$oneWord] [в/на/от] $card *
-        q: * ($changeN/$installation) [$oneWord] [в/на/от] $card [$oneWord] ($pin/$code/$password) *
-        q: * ($pin/$code/$password) [$oneWord] [в/на/от] $card [$oneWord] ($changeN/$installation)  *
-        q: * ($pin/$code/$password) [$oneWord] ($changeN/$installation) [$oneWord] [в/на/от] $card *
+        q: * ($changeN/$control/$installation) [$oneWord] ($pin/$code/$password) [$oneWord] [в/на/от] $card *
+        q: * ($changeN/$control/$installation) [$oneWord] [в/на/от] $card [$oneWord] ($pin/$code/$password) *
+        q: * ($pin/$code/$password) [$oneWord] [в/на/от] $card [$oneWord] ($changeN/$control/$installation)  *
+        q: * ($pin/$code/$password) [$oneWord] ($changeN/$control/$installation) [$oneWord] [в/на/от] $card *
         
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] [в/на/от] $card *
         q: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] [в/на/от] $card [$threeWords] ($pin/$code/$password) *

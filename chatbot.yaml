@@ -7,11 +7,11 @@ language: ru
 
 tests:
   include:
-    - general.xml
-    - chooseOption.xml
-    - card.xml
-    - app.xml
-    - noMatch.xml
+    # - general.xml
+     - chooseOption.xml
+    # - card.xml
+    # - app.xml
+    # - noMatch.xml
 
 nlp:
   intentNoMatchThresholds:

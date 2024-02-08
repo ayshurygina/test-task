@@ -217,14 +217,6 @@
     </test-case>
     
     <test-case>
-        <q>Здравствуйте. Как сменить пароль для входа в приложение?</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/ChooseOption"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
         <q>Как поменять пароль</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/ChooseOption"/>
@@ -674,14 +666,6 @@
     
     <test-case>
         <q>Где посмотреть пин код</q>
-        <a state="/Routing"/>
-        <a state="/ChangePinCode/ChooseOption"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
-        <q>Как восмтановить пинк код</q>
         <a state="/Routing"/>
         <a state="/ChangePinCode/ChooseOption"/>
         <timeoutReply targetState="/StopSession"/>

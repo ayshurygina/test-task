@@ -1066,5 +1066,17 @@
         <timeout/>
         <a state="/GladToTalk"/>
     </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Как сменить пароль для входа в приложение?</q>
+        <a state="/Routing"/>
+        <a state="/ChangePinCode/App"/>
+        <timeoutReply targetState="/ChangePinCode/App/Variant2"/>
+        <timeout/>
+        <a state="/ChangePinCode/App/Variant2"/>
+        <timeoutReply targetState="/GladToTalk"/>
+        <timeout/>
+        <a state="/GladToTalk"/>
+    </test-case>
 
 </test>

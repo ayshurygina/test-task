@@ -279,4 +279,12 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
+    
+    <test-case>
+        <q>Как восмтановить пинк код</q>
+        <a state="/Routing"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 </test>
