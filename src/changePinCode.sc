@@ -32,8 +32,8 @@ theme: /ChangePinCode
             q!: * ($pin/$code/$password) [$oneWord] $toOpenApp *
             q!: * $toOpenApp [$oneWord] ($pin/$code/$password) *
             
-            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] {($pin/$code/$password) ([от/для] $appGen)} *
-            q!: * {($pin/$code/$password) ([от/для] $appGen)} [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
+            q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] {($pin/$code/$password) ([от/для] $appGen/в $appNom)} *
+            q!: * {($pin/$code/$password) ([от/для] $appGen/в $appNom)} [$threeWords] ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) *
             
             q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] $toOpenApp *
             q!: * ([$cannot] $changeSynsInf/$learnInf/$recallInf/$checkInf/$forget/$notChanging) [$threeWords] $toOpenApp [$threeWords] ($pin/$code/$password) *
@@ -46,7 +46,6 @@ theme: /ChangePinCode
             q!: * $tell [$oneWord] $toOpenApp [$oneWord] ($pin/$code/$password) *
             q!: * ($pin/$code/$password) [$oneWord] $toOpenApp [$oneWord] $tell *
             q!: * $toOpenApp [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
-            
             
             a: Смена пароля от приложения возможна несколькими способами:
                 1. на экране "Профиль" выберите "Изменить код входа в приложение".

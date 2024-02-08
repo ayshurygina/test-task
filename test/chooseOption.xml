@@ -856,4 +856,196 @@
         <timeout/>
     </test-case>
     
+    <test-case>
+        <q>Здравствуйте, скажите как восстановить пароль в приложении банка?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, как сменить пароль в мобильном приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Доброго времени суток! Подскажите как сменить пароль на приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как изменить пароль в приложении</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте,  подскажите,  пожалуйста,  как попасть в интернет-банк? Как я могу получить логмн и пароль?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как поменять пароль в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как поменять пароль для входа в личный кабинет</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как изменить пароль от личного кабинета?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пароль для входа в банк</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пароль в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Сменить пароль в онлайн банке</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пароль в приложении ?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, хочу сменить пароль вход в  личный кабинет</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пароль через предложение ?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Добрый вечер, можно ли поменять пароль в мобильном приложении</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Добрый вечер! Как я могу поменять пароль в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как изменить пин код для входа в онлайн банке</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пин в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить пин код, в приложении пишет невозможно отправить смс</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Кап изменить код доступа в онлайн банк</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, а как можно изменить код доступа в мобильном приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Как изменить код доступа в мобильном приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Как сменить код доступа в личный кабинет?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить код доступами в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
 </test>

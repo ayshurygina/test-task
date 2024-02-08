@@ -287,4 +287,28 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
+    
+    <test-case>
+        <q>Ответ получила от вас. Не могу зайти в интернет банк. Как узнать логин и пароль?</q>
+        <a state="/NoMatch"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как сменить код доступа в приложении?</q>
+        <a state="/NoMatch"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как изменить пин код для входа в онлайн банке</q>
+        <a state="/NoMatch"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 </test>
