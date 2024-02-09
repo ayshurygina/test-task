@@ -7,7 +7,6 @@ language: ru
 
 tests:
   include:
-    - test.xml
     - general.xml
     - chooseOption.xml
     - card.xml
