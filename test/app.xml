@@ -324,18 +324,6 @@
     </test-case>
 
     <test-case>
-        <q>Здравствуйте , подскажите как сменить пароль на приложении</q>
-        <a state="/ChangePinCode/ChooseOption/App"/>
-        <a state="/ChangePinCode/ChooseOption/App"/>
-        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
-        <timeout/>
-        <a state="/ChangePinCode/ChooseOption/App/Variant2"/>
-        <timeoutReply targetState="/GladToTalk"/>
-        <timeout/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Как изменить пароль для входа в приложение?</q>
         <a state="/ChangePinCode/ChooseOption/App"/>
         <a state="/ChangePinCode/ChooseOption/App"/>

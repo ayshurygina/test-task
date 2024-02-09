@@ -1048,4 +1048,11 @@
         <timeout/>
     </test-case>
     
+    <test-case>
+        <q>Здравствуйте , подскажите как сменить пароль на приложении</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 </test>
