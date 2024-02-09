@@ -255,5 +255,13 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
+    
+    <test-case>
+        <q>Перезайти в приложение не помогло. Также выходит ошибка. Попробую в банкомате, но есть сомнения, что в первую очередь при работе с картой будет запрошен валидный пин код. А у меня его на текущий момент для этой карты нет</q>
+        <a state="/NoMatch"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 
 </test>

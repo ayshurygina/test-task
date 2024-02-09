@@ -217,14 +217,6 @@
     </test-case>
 
     <test-case>
-        <q>Перезайти в приложение не помогло. Также выходит ошибка. Попробую в банкомате, но есть сомнения, что в первую очередь при работе с картой будет запрошен валидный пин код. А у меня его на текущий момент для этой карты нет</q>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Получила перевыпущенную карту как издать ее пин?</q>
         <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/ChangePinCode/ChooseOption/Card"/>
@@ -538,14 +530,6 @@
 
     <test-case>
         <q>Поменяли вчера карту, нет пин кода. Старые не проходит. Что делать?</q>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-    
-    <test-case>
-        <q>Не могу найти где можно пин код для карты ввести</q>
         <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/ChangePinCode/ChooseOption/Card"/>

@@ -1,9 +1,13 @@
 <test>
     <test-case>
-        <q>По ссылке это не открывается предлагают ввести пароль</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
+        <q>Наталья, я говорю про приложение банка Открытие для Android. В этом приложении  на странице входа нет кнопки &quot;Сбросить пароль&quot;. А Вы какое приложение имеете ввиду?</q>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <a state="/ChangePinCode/ChooseOption/App"/>
+        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
         <timeout/>
+        <a state="/ChangePinCode/ChooseOption/App/Variant2"/>
+        <timeoutReply targetState="/GladToTalk"/>
+        <timeout/>
+        <a state="/GladToTalk"/>
     </test-case>
 </test>
