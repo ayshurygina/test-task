@@ -441,14 +441,6 @@
     </test-case>
 
     <test-case>
-        <q>Не могу найти где можно пин код для карты ввести</q>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/ChangePinCode/ChooseOption/Card"/>
-        <a state="/GladToTalk"/>
-    </test-case>
-
-    <test-case>
         <q>Как узнать пин-код карты</q>
         <a state="/ChangePinCode/ChooseOption/Card"/>
         <a state="/ChangePinCode/ChooseOption/Card"/>

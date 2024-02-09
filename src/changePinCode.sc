@@ -1,22 +1,22 @@
 theme: /ChangePinCode
 
     state: ChooseOption
-        q!: [~мой] ($pin/$code/$password)
+        q!: [$my] [$login] [и] ($pin/$code/$password)
         q!: {~какой ($pin/$code/$password)}
         
         q!: * {~какой (у (меня/нас)) ($pin/$code/$password)} *
         
-        q!: ($changeN/$control/$installation) [$oneWord] ($pin/$code/$password)
-        q!: ($pin/$code/$password) [$oneWord] ($changeN/$control/$installation)
+        q!: ($changeN/$control/$installation) [$oneWord] [$my] [$login] [и] ($pin/$code/$password)
+        q!: [$my] [$login] [и] ($pin/$code/$password) [$oneWord] ($changeN/$control/$installation)
         
         q!: * {$cannot $verbForPin ($pin/$code/$password)} *
         q!: * {никак (не $verbForPin) ($pin/$code/$password)} *
         
-        q!: * ($changedForPin/$lost/$installed) [$oneWord] ($pin/$code/$password) *
+        q!: * ($changedForPin/$lost/$installed) [$oneWord] [$my] [$login] [и] ($pin/$code/$password) *
         q!: * ($pin/$code/$password) [$oneWord] ($changedForPin/$lost/$installed) *
         
-        q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] ($pin/$code/$password) *
-        q!: * ($pin/$code/$password) [$threeWords] ($verbForPin/$forget/$notInstalling/$notChanging) *
+        q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$oneWord] [$my] [$login] [и] ($pin/$code/$password) *
+        q!: * ($pin/$code/$password) [$oneWord] ($verbForPin/$forget/$notInstalling/$notChanging) *
         a: Сейчас расскажу порядок действий.
             Выберите, что именно планируете сделать:
             1. Поменять пароль для входа в приложение.
@@ -47,8 +47,8 @@ theme: /ChangePinCode
             q!: * ($changeN/$control/$installation) [$oneWord] {($pin/$code/$password) ($forApp/$toOpenApp)} *
             q!: * {($pin/$code/$password) ($forApp/$toOpenApp)} [$oneWord] ($changeN/$control/$installation) *
             
-            q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] {($pin/$code/$password) ($forApp)} *
-            q!: * {($pin/$code/$password) ($forApp)} [$threeWords] ($verbForPin/$forget/$notInstalling/$notChanging) *
+            q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] {($pin/$code/$password) $forApp} *
+            q!: * {($pin/$code/$password) $forApp} [$threeWords] ($verbForPin/$forget/$notInstalling/$notChanging) *
             
             q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] ($pin/$code/$password) [$threeWords] $toOpenApp *
             q!: * ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] $toOpenApp [$threeWords] ($pin/$code/$password) *
@@ -57,11 +57,20 @@ theme: /ChangePinCode
             q!: * $toOpenApp [$threeWords] ($pin/$code/$password) [$threeWords] ($verbForPin/$forget/$notInstalling/$notChanging) *
             q!: * $toOpenApp [$threeWords] ($verbForPin/$forget/$notInstalling/$notChanging) [$threeWords] ($pin/$code/$password) *
             
-            q!: * $tell [$oneWord] ($pin/$code/$password) [$oneWord] {($pin/$code/$password) ($forApp/$toOpenApp)} *
-            q!: * $tell [$oneWord] {($pin/$code/$password) ($forApp/$toOpenApp)} [$oneWord] ($pin/$code/$password) *
-            q!: * ($pin/$code/$password) [$oneWord] {($pin/$code/$password) ($forApp/$toOpenApp)} [$oneWord] $tell *
-            q!: * {($pin/$code/$password) ($forApp/$toOpenApp)} [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
+            q!: * $tell [$oneWord] {($pin/$code/$password) $forApp} *
+            q!: * {($pin/$code/$password) $forApp} [$oneWord] $tell *
             
+            q!: * $tell [$oneWord] ($pin/$code/$password) [$oneWord] $toOpenApp *
+            q!: * $tell [$oneWord] $toOpenApp [$oneWord] ($pin/$code/$password) *
+            q!: * ($pin/$code/$password) [$oneWord] $toOpenApp [$oneWord] $tell *
+            q!: * $toOpenApp [$oneWord] ($pin/$code/$password) [$oneWord] $tell *
+            
+            q!: * $app * {((для/от) (входа [в]/запуска/открытия/разблокировки/активации)) [мне/нам] $need ($pin/$code/$password)} *
+            q!: * {((для/от) (входа [в]/запуска/открытия/разблокировки/активации)) [мне/нам] $need ($pin/$code/$password)} * $app * 
+            
+            q!: {(смени*/измени*) {($pin/$code/$password) ($forApp/$toOpenApp)}}
+            
+            q!: * {((при/на) (странице входа/входе [в]/запуске/открытии/разблокировке/активации)) ([в] $app) $absent $button {([чтоб/чтобы] $resetInf/[для] ~сброс) ($pin/$code/$password)}} *
             a: Смена пароля от приложения возможна несколькими способами:
                 1. на экране "Профиль" выберите "Изменить код входа в приложение".
                 2. введите SMS-код.

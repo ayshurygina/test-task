@@ -30,7 +30,7 @@ theme: /
         event!: lengthLimit
         event!: timeLimit
         event!: nluSystemLimit
-        a: Извините, я не понимаю.
+        a: Извините, я не понимаю. Попробуйте переформулировать.
         script:
             // FIXME Добавлен таймаут как в ChooseOption на случай, если вместо выбора опции будет NoMatch
             $reactions.timeout({ interval: "1 hour", targetState: "/StopSession" });

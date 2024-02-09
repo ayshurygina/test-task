@@ -161,22 +161,6 @@
     </test-case>
     
     <test-case>
-        <q>Здравствуйте. Как мне узнать логин и пароль для оплаты бонусами билетов  рэвэл путешествие</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
-        <q>Здравствуйте, как я могу узнать свой логин и пароль от личного кабинета ?</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
         <q>Я делаю по инструкции, но сканирование пальца не включается, просит ввести пароль а потом выкидывает снова в профиль</q>
         <a state="/NoMatch"/>
         <a state="/NoMatch"/>
@@ -225,22 +209,6 @@
     </test-case>
     
     <test-case>
-        <q>Наталья, я говорю про приложение банка Открытие для Android. В этом приложении  на странице входа нет кнопки &quot;Сбросить пароль&quot;. А Вы какое приложение имеете ввиду?</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
-        <q>Увидела сообщение о том что мобильное приложение «Открытие Брокер» . Не могу вспомнить свой логин и пароль. Как можно восстановить?</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
         <q>Как мне зделать что когда входиш в приложение не вводить пароль?</q>
         <a state="/NoMatch"/>
         <a state="/NoMatch"/>
@@ -281,34 +249,11 @@
     </test-case>
     
     <test-case>
-        <q>Как восмтановить пинк код</q>
+        <q>Не могу найти где можно пин код для карты ввести</q>
         <a state="/NoMatch"/>
         <a state="/NoMatch"/>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
-    
-    <test-case>
-        <q>Ответ получила от вас. Не могу зайти в интернет банк. Как узнать логин и пароль?</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
-        <q>Как сменить код доступа в приложении?</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
-    
-    <test-case>
-        <q>Как изменить пин код для входа в онлайн банке</q>
-        <a state="/NoMatch"/>
-        <a state="/NoMatch"/>
-        <timeoutReply targetState="/StopSession"/>
-        <timeout/>
-    </test-case>
+
 </test>

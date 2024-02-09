@@ -1055,4 +1055,60 @@
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
+    
+    <test-case>
+        <q>Как сменить код доступа в приложении?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как изменить пин код для входа в онлайн банке</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Как восмтановить пинк код</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Ответ получила от вас. Не могу зайти в интернет банк. Как узнать логин и пароль?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Увидела сообщение о том что мобильное приложение «Открытие Брокер» . Не могу вспомнить свой логин и пароль. Как можно восстановить?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте, как я могу узнать свой логин и пароль от личного кабинета ?</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
+    
+    <test-case>
+        <q>Здравствуйте. Как мне узнать логин и пароль для оплаты бонусами билетов  рэвэл путешествие</q>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <a state="/ChangePinCode/ChooseOption"/>
+        <timeoutReply targetState="/StopSession"/>
+        <timeout/>
+    </test-case>
 </test>

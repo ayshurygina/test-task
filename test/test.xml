@@ -1,13 +1,9 @@
 <test>
     <test-case>
-        <q>Сменить pin-cod для моб. приложения</q>
-        <a state="/ChangePinCode/ChooseOption/App"/>
-        <a state="/ChangePinCode/ChooseOption/App"/>
-        <timeoutReply targetState="/ChangePinCode/ChooseOption/App/Variant2"/>
+        <q>По ссылке это не открывается предлагают ввести пароль</q>
+        <a state="/NoMatch"/>
+        <a state="/NoMatch"/>
+        <timeoutReply targetState="/StopSession"/>
         <timeout/>
-        <a state="/ChangePinCode/ChooseOption/App/Variant2"/>
-        <timeoutReply targetState="/GladToTalk"/>
-        <timeout/>
-        <a state="/GladToTalk"/>
     </test-case>
 </test>

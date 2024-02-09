@@ -103,7 +103,7 @@
     <test-case id="NoMatch">
         <q>Как</q>
         <a state="/NoMatch">Здравствуйте!</a>
-        <a state="/NoMatch">Извините, я не понимаю.</a>
+        <a state="/NoMatch">Извините, я не понимаю. Попробуйте переформулировать.</a>
         <timeoutReply targetState="/StopSession"/>
         <timeout/>
     </test-case>
